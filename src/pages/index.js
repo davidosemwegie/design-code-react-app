@@ -139,7 +139,7 @@ const IndexPage = () => (
       </div>
     </div>
     <Stats image={require("../images/wallpaper4.jpg")} />
-    {/* <Section
+    <Section
       image={require("../images/wallpaper2.jpg")}
       logo={require("../images/logo-react.png")}
       title="React for Designers"
@@ -151,7 +151,7 @@ const IndexPage = () => (
       {staticdata.cells.map(cell => (
         <Cell key={cell.title} title={cell.title} image={cell.image} />
       ))}
-    </SectionCellGroup> */}
+    </SectionCellGroup>
   </Layout>
 )
 
