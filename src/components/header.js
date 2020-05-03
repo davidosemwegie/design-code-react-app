@@ -39,8 +39,9 @@ class Header extends Component {
           <Link to="">Courses</Link>
           <Link to="">Downloads</Link>
           <Link to="">Workshops</Link>
+          <Link to="">Sign In</Link>
           <Link to="">
-            <button>Buy</button>
+            <button>Try for free</button>
           </Link>
         </div>
       </div>
