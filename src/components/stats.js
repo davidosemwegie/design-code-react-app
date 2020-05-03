@@ -9,6 +9,10 @@ const StatsTitleSection = styled.div`
   grid-template-columns: repeat(2, 1fr);
   max-width: 600px;
   margin: 0 auto;
+
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 const StatsTitleGroup = styled.div`
@@ -23,6 +27,10 @@ const StatsTitleLeft = styled.h1`
   background: linear-gradient(104deg, #852f56 0%, #e84378 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media (max-width: 640px) {
+    font-size: 150px;
+  }
 `
 
 const StatsTextLeft = styled.p`
@@ -41,6 +49,10 @@ const StatsTitleRight = styled.h1`
   background: linear-gradient(104deg, #e3544e 0%, #e3544e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media (max-width: 640px) {
+    font-size: 150px;
+  }
 `
 
 const StatsTextRight = styled.p`
@@ -57,10 +69,6 @@ const StatsImageGroup = styled.div`
   height: 500px;
   background-size: cover;
   position: relative;
-  /* display: flexbox;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 `
 
 const StatsImageTextGroup = styled.div`
@@ -79,6 +87,10 @@ const StatsImageText = styled.p`
   text-align: center;
   justify-self: center;
   align-self: center;
+
+  @media (max-width: 640px) {
+    font-size: 30px;
+  }
 `
 
 const WaveBottom = styled.div`
